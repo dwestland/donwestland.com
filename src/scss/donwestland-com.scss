@@ -1,0 +1,43 @@
+div {
+    border: 1px solid red;
+}
+
+.container {
+    border: 1px solid blue;
+}
+
+.preamble {
+  display: flex;
+  margin: 0 auto;
+
+  aside {
+    border: 1px solid green;
+    text-align: center;
+    width: 33%;
+
+    img {
+      margin: auto;
+      max-width: 400px;
+    }
+  }
+
+  section {
+    border: 1px solid orange;
+    padding: 0 10px;
+    width: 67%;
+  }
+}
+
+@media (max-width: 768px) {
+  .preamble {
+    flex-direction: column;
+
+    aside {
+      width: 100%;
+
+    }
+    section {
+      width: 100%;
+    }
+  }
+}
