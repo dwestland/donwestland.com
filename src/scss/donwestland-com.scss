@@ -19,7 +19,7 @@
 }
 
 .row-spacer {
-  background: linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
+  background: linear-gradient(-120deg, var(--blue-090), var(--blue-060), var(--blue-070));
   height: 10px;
   margin: 20px 0;
 }

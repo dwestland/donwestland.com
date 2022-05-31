@@ -2,9 +2,22 @@ import React, { useEffect } from 'react'
 import './scss/main.scss'
 
 function App() {
-
   useEffect(() => {
-    console.log('%c This is a console message ', 'background: red; color: white', );
+    console.log(`
+     ..oo8"""Y8b.._
+    .88888888o.    "Yb.
+  .d888P""Y8888b      "b.
+ o88888    88888)       "b
+d888888b..d8888P         'b
+88888888888888"           8
+(88DWB8888888P            8)
+8888888888P               8
+Y88888888P     ee        .P      “Clean code always looks like it was
+ Y888888(     8888      oP       written by someone who cares.”
+  "Y88888b     ""     oP"
+    "Y8888o._     _.oP"           - Michael Feathers
+      '""Y888boodP""'
+    `)
   }, [])
   
   return (
