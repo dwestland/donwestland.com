@@ -1,17 +1,8 @@
-div {
-    border: 1px solid red;
-}
-
-.container {
-    border: 1px solid blue;
-}
-
-.preamble {
+.row {
   display: flex;
-  margin: 0 auto;
+  // margin: 20px auto;
 
   aside {
-    border: 1px solid green;
     text-align: center;
     width: 33%;
 
@@ -22,14 +13,24 @@ div {
   }
 
   section {
-    border: 1px solid orange;
     padding: 0 10px;
     width: 67%;
   }
 }
 
+.row-spacer {
+  background: linear-gradient(-120deg, #021B79, #0575E6, #205E9B);
+  height: 10px;
+  margin: 20px 0;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+}
+
 @media (max-width: 768px) {
-  .preamble {
+  .row {
     flex-direction: column;
 
     aside {

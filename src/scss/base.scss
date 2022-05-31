@@ -19,9 +19,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica,
     Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.6;
   line-height: 1.8;
+  word-break: break-word;
 }
 
 /* Typography
@@ -31,37 +32,37 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1rem;
   font-weight: 300; }
 h1 {
-  font-size: 4.0rem;
-  letter-spacing: -.1rem;
+  font-size: 4.6rem;
+  letter-spacing: -.15rem;
   line-height: 1.2;
   margin-top: 1.8rem;
 }
 h2 {
   font-size: 3rem;
   letter-spacing: -.1rem;
-  line-height: 1.25;
+  line-height: 1;
   margin-top: 1.4rem;
 }
 h3 {
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   letter-spacing: -.1rem;
-  line-height: 1.3;
+  line-height: 1;
   margin-top: 1.2rem;
 }
 h4 {
   font-size: 2.2rem;
   letter-spacing: -.08rem;
-  line-height: 1.35;
+  line-height: 1.1;
 }
 h5 {
   font-size: 1.8rem;
   letter-spacing: -.05rem;
-  line-height: 1.5;
+  line-height: 1.1;
 }
 h6 {
   font-size: 1.5rem;
   letter-spacing: 0;
-  line-height: 1.6;
+  line-height: 1.1;
 }
 
 @media (min-width: 600px) {
@@ -86,7 +87,8 @@ h6 {
 }
 
 p {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 a {
   color: var(--blue-060);

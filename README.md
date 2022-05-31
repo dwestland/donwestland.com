@@ -2,4 +2,4 @@
 
 ### `npm start`
 
-Open [http://localhost:7700](http://localhost:7700) to view it in the browser.
+Open http://localhost:7700 to view in the browser.
