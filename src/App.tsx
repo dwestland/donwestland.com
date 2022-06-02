@@ -15,7 +15,7 @@ d888888b..d8888P         'b
 Y88888888P     ee        .P      “Clean code always looks like it was
  Y888888(     8888      oP       written by someone who cares.”
   "Y88888b     ""     oP"
-    "Y8888o._     _.oP"           - Michael Feathers
+    "Y8888o._     _.oP"            - Michael Feathers
       '""Y888boodP""'
     `)
   }, [])
@@ -25,9 +25,9 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
-      <div>
-      <img src="/images/tech-logos.jpg" alt="Technology Logos" />
-      </div>
+      <header>
+        <img src="/images/tech-logos.jpg" alt="Technology Logos" />
+      </header>
       <div className='row-spacer'>
         &nbsp; 
       </div>

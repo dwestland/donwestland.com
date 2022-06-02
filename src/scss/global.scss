@@ -57,10 +57,10 @@ form {
 }
 
 .ghost-button {
-  font-weight: bold;
   background: none;
   border: 2px solid var(--blue-060);
   color: var(--blue-070);
+  font-weight: bold;
   &:hover {
     background: var(--blue-020);
   }
@@ -88,8 +88,8 @@ form {
   color: #fff;
   cursor: pointer;
   display: inline-block;
-  text-decoration: none;
   padding: 5px 20px;
+  text-decoration: none;
   &:hover {
     opacity: 0.85;
     text-decoration: none;
@@ -106,16 +106,17 @@ form {
 /* Embedded YouTube Videos
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .video-responsive {
+  border-radius: 5px;
+  height: 0;
   overflow: hidden;
   padding-bottom: 56.25%;
   position: relative;
-  height: 0;
 }
 
 .video-responsive iframe {
-  left: 0;
-  top: 0;
   height: 100%;
-  width: 100%;
+  left: 0;
   position: absolute;
+  top: 0;
+  width: 100%;
 }

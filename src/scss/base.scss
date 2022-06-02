@@ -92,12 +92,16 @@ p {
 
 a {
   color: var(--blue-060);
+  text-decoration: none;
   &:hover {
     color: var(--blue-070);
+    text-decoration: underline;
   }
 }
 
 img {
-  width: 100%;
+  border-radius: 5px;
   height: auto;
+  vertical-align: middle;
+  width: 100%;
 }
