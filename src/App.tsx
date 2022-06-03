@@ -22,15 +22,19 @@ Y88888888P     ee        .P      “Clean code always looks like it was
   
   return (
     <div className="container">
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+
       <header>
         <img src="/images/tech-logos.jpg" alt="Technology Logos" />
       </header>
+
+
+
+
       <div className='row-spacer'>
         &nbsp; 
       </div>
+
+
       <div className='row preamble'>
         <aside>
           <img src="/images/don-westland.jpg" alt="Don Westland" />

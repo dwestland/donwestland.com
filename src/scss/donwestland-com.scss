@@ -6,6 +6,7 @@ header {
   border: 1px solid var(--blue-010);
   // border: 1px solid green;
   border-radius: 5px;
+  margin-top: 60px;
   overflow:hidden;
 }
 
@@ -25,19 +26,20 @@ header {
   }
 
   section {
-    padding: 0 10px;
+    padding: 0 15px;
     width: 67%;
   }
 }
 
 .row-spacer {
-  background: linear-gradient(-120deg, var(--blue-090), var(--blue-060), var(--blue-070));
+  border-radius: 5px;
+  background: linear-gradient(-120deg, var(--blue-030), var(--blue-040));
   height: 10px;
-  margin: 20px 0;
+  margin: 80px 0;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 0 0 60px;
   text-align: center;
 }
 
