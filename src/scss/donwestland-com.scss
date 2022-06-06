@@ -4,8 +4,19 @@
 
 header {
   border-radius: 5px;
-  margin: 60px 0 70px;
+  margin: 60px 0 100px;
   overflow:hidden;
+}
+
+ul {
+  line-height: 2.5;
+  list-style-type: none;
+  margin-left: -10px;
+  margin-top: 30px;
+  width: 400px;
+  li {
+    display: inline-block;
+  }
 }
 
 .row {
@@ -31,7 +42,7 @@ header {
 
 .row-spacer {
   border-radius: 2px;
-  background: linear-gradient(-120deg, var(--blue-060), var(--blue-070));
+  background: linear-gradient(-120deg, var(--blue-060), var(--blue-080));
   height: 4px;
   margin: 50px 0;
 }
