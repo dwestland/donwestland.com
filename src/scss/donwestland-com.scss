@@ -4,7 +4,7 @@
 
 header {
   border-radius: 5px;
-  margin: 60px 0 100px;
+  margin: 60px 0 80px;
   overflow:hidden;
 }
 
@@ -26,16 +26,20 @@ ul {
   aside {
     display: flex;
     text-align: center;
-    width: 33%;
+    max-width: 33%;
 
     img {
       margin: auto;
       max-width: 400px;
     }
+
+    div {
+      display: flex;
+    }
   }
 
   section {
-    padding: 0 15px;
+    padding: 0 30px;
     width: 67%;
   }
 }
@@ -55,9 +59,11 @@ footer {
 @media (max-width: 768px) {
   .row {
     flex-direction: column;
-
     aside {
       width: 100%;
+      max-width: inherit;
+      div {
+      }
     }
     section {
       width: 100%;

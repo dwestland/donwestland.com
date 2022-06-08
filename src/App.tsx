@@ -7,16 +7,35 @@ function App() {
   const headerVariants = {
     offscreen: {
       opacity: 0,
-      scale: 0,
+      scale: 1.1,
+      // x: 100,
     },
     onscreen: {
       opacity: 1,
       scale: 1,
-      x: 0,
+      // x: 0,
       transition: {
+        bounce: .5,
+        delay: .4,
+        stiffness: 300,
         type: 'spring',
-        delay: 0.5,
-        stiffness: 150,
+      }
+    }
+  }
+
+  const asideVariants = {
+    offscreen: {
+      opacity: 0,
+      scale: 0.8,
+      y: 50, 
+    },
+    onscreen: {
+      opacity: 1,
+      scale: 1,
+      y: 0,
+      transition: {
+        duration: .3,
+        type: "Tween",
       }
     }
   }
@@ -25,16 +44,16 @@ function App() {
     offscreen: {
       opacity: 0,
       scale: 0.9,
-      x: 20
+      x: 40
     },
     onscreen: {
       opacity: 1,
       scale: 1,
       x: 0,
       transition: {
-        bounce: 0.4,
-        duration: 1.5,
-        stifness: 150,
+        delay: .2,
+        bounce: .5,
+        stiffness: 300,
         type: "spring",
       }
     }
@@ -43,7 +62,7 @@ function App() {
   const liVariants = {
     hover: {
       scale: 1.05,
-      originX: .3,
+      originX: .2,
       transition: {
         type: 'spring',
         stiffness: 300 
@@ -75,44 +94,34 @@ Y88888888P     ee        .P      “Clean code always looks like it was
   return (
     <div className="container">
 
+      {/* Header */}
       <motion.header
-        variants={headerVariants}
-        initial="hidden"
-        animate="onscreen"
+        initial="offscreen"
+        whileInView="onscreen"
+        viewport={{ once: true, amount: 0.6 }}
       >
-        <img src="/images/tech-logos.jpg" alt="Technology Logos" />
+        <motion.div variants={headerVariants}>
+          <img src="/images/tech-logos.jpg" alt="Technology Logos" />
+        </motion.div>
       </motion.header>
+
+      {/* Preamble */}
       <div className='row preamble'>
         <motion.aside
-          initial={{          
-            x: -20,
-            y: 0,
-            opacity: 0,
-            scale: 0.9,
-          }}
-          animate={{ 
-            x: 0,
-            y: 0,
-            opacity: 1,
-            scale: 1,
-          }}
-          transition={{
-            bounce: 1.3,
-            stiffness: 300,
-            type: 'spring',
-          }}
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
         >
-          <img src="/images/don-westland.jpg" alt="Don Westland" />
+          <motion.div variants={asideVariants} >
+            <img src="/images/don-westland.jpg" alt="Don Westland" />
+          </motion.div>
         </motion.aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
-            <div>
-
-            </div>
             <h1>Don Westland</h1>
             <h2>Front End<br />Developer</h2>
             <ul>
@@ -144,14 +153,25 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
+
+      {/* Demand Force */}
       <div className='row'>
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+          >
+          <motion.div variants={asideVariants} 
+          >
+            <img src="/images/internet-brands-logos.jpg" alt="Don Westland" />
+          </motion.div>
+        </motion.aside>
         <aside>
-          <img src="/images/internet-brands-logos.jpg" alt="Don Westland" />
         </aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
             <h2>Happy Path Video</h2>
@@ -173,14 +193,22 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
+
+      {/* MyBeachCams.com */}
       <div className='row'>
-        <aside>
-          {/* Should something be here? */}
-        </aside>
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants} >
+            <img src="/images/don-westland.jpg" alt="Don Westland" />
+          </motion.div>
+        </motion.aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
             <h2>MyBeachCams.com</h2>
@@ -202,14 +230,22 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
+
+      {/* Beach Cam */}
       <div className='row'>
-        <aside>
-          {/* Should something be here? */}
-        </aside>
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants} >
+            <img src="/images/don-westland.jpg" alt="Don Westland" />
+          </motion.div>
+        </motion.aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
           <h2>Live Beach Cam</h2>
@@ -231,14 +267,22 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
+
+      {/* Westland Video */}
       <div className='row'>
-      <motion.aside>
-          <img src="/images/westland-productions.jpg" alt="Don Westland" />
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants} >
+            <img src="/images/westland-productions.jpg" alt="Don Westland" />
+          </motion.div>
         </motion.aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
             <h2>Video Production</h2>
@@ -251,15 +295,22 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
-      <div
-        className='row'>
-        <motion.aside>
-          <img src="/images/marine-corps-pics.jpg" alt="Marine Corps" />
+
+      {/* USMC */}
+      <div className='row'>
+         <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants} >
+            <img src="/images/marine-corps-pics.jpg" alt="Marine Corps" />
+          </motion.div>
         </motion.aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
-          viewport={{ once: true, amount: 0.8 }}
+          viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
             <h2>U.S.M.C.</h2>
