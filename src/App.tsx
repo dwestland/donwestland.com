@@ -17,7 +17,7 @@ function App() {
       transition: {
         bounce: .5,
         delay: .4,
-        stiffness: 300,
+        stiffness: 100,
         type: 'spring',
       }
     }
@@ -27,7 +27,7 @@ function App() {
     offscreen: {
       opacity: 0,
       scale: 0.8,
-      y: 50, 
+      y: 100, 
     },
     onscreen: {
       opacity: 1,
@@ -52,8 +52,8 @@ function App() {
       x: 0,
       transition: {
         delay: .2,
-        bounce: .5,
-        stiffness: 300,
+        bounce: 1.3,
+        stiffness: 100,
         type: "spring",
       }
     }
@@ -174,7 +174,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
-            <h2>Happy Path Video</h2>
+            <h2>Medical Applications</h2>
             <h3>Live Streaming Video from Venice Beach, CA</h3>
             <div className="video-responsive">
               <iframe
@@ -194,7 +194,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         &nbsp; 
       </div>
 
-      {/* MyBeachCams.com */}
+      {/* MyBeachCams.com 
       <div className='row'>
         <motion.aside
           initial="offscreen"
@@ -230,6 +230,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
       <div className='row-spacer'>
         &nbsp; 
       </div>
+      */}
 
       {/* Beach Cam */}
       <div className='row'>
@@ -287,8 +288,16 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
             <h2>Video Production</h2>
             <h3>Cinematographer, Editor, Motion Graphics, Color &amp; Sound</h3>
-            <p><a href='https://www.westlandproductions.com/' target="_blank" rel="noreferrer">Westland Productions</a></p>
-            <p>Produce documentaries and travel videos. The trailer for Westland Traveler has over a million views.</p>
+            <ul>
+              <motion.li
+                variants={liVariants}
+                whileHover={'hover'}
+                whileTap={'tap'}
+              >
+                Website: <a href='https://www.westlandproductions.com/' target="_blank" rel="noreferrer">WestlandProductions.com</a>
+              </motion.li>
+            </ul>
+            <p>Passion for video production. Over a million views on YouTube! Produce documentaries and travel videos.</p>
           </motion.div>
         </motion.section>
       </div>
