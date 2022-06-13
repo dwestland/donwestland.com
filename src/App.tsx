@@ -174,13 +174,13 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
-            <h2>Medical Applications</h2>
-            <h3>Live Streaming Video from Venice Beach, CA</h3>
+            <h2>Telemedicine</h2>
+            <h3>Develop HIPAA medical applications for the healthcare industry.</h3>
             <div className="video-responsive">
               <iframe
                 width="853"
                 height="480"
-                src={'https://www.youtube.com/embed/c4ogYaFSSQ4'}
+                src={'https://www.youtube.com/embed/Ys9id8TwIik'}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -269,7 +269,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         &nbsp; 
       </div>
 
-      {/* Westland Video */}
+      {/* Westland Productions */}
       <div className='row'>
         <motion.aside
           initial="offscreen"
