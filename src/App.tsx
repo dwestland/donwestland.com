@@ -123,7 +123,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
             <h1>Don Westland</h1>
-            <h2>Front End<br />Developer</h2>
+            <h2>Developer</h2>
             <ul>
               <motion.li
                 variants={liVariants}
@@ -175,8 +175,8 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
             <h2>Telemedicine</h2>
-            <h3>Develop HIPAA medical applications for the healthcare industry.</h3>
-            <p>Demandforce, specializes in doctor to patient communication. This is the Campaign Studio for designing and building email campaigns. With fully-integrated automation tools like appointment reminders, automated recall, two-way texting, targeted email campaigns in one simple-to-use centralized dashboard.</p>
+            <h3>Develop HIPAA medical applications for the healthcare industry</h3>
+            <p>Create applications for doctor to patient communications. The Campaign Studio designs and builds email campaigns. Provides fully-integrated automation tools like appointment reminders, two-way texting and targeted email campaigns in one simple-to-use centralized dashboard.</p>
             <div className="video-responsive">
               <iframe
                 width="853"

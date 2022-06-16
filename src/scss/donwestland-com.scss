@@ -16,6 +16,8 @@ ul {
   width: 400px;
   li {
     display: inline-block;
+    font-size: 18px;
+    line-height: 1;
   }
 }
 
@@ -26,6 +28,7 @@ ul {
   aside {
     display: flex;
     text-align: center;
+    margin: auto;
     max-width: 33%;
 
     img {
@@ -60,8 +63,13 @@ footer {
   .row {
     flex-direction: column;
     aside {
-      width: 100%;
+      margin: auto;
       max-width: inherit;
+      width: 100%;
+      img {
+        margin: auto;
+      }
+      
     }
     section {
       width: 100%;
