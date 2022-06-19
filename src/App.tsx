@@ -181,7 +181,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
               <iframe
                 width="853"
                 height="480"
-                src={'https://www.youtube.com/embed/Ys9id8TwIik'}
+                src={'https://www.youtube.com/embed/l_CLE2uUEAY'}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -251,7 +251,27 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
           <h2>Live Beach Cam</h2>
-          <h3>Live Streaming Video from Venice Beach, CA</h3>
+          <h3>Live Streaming Video from Venice Beach, California</h3>
+
+
+      <div>
+        <iframe
+          src="https://live2.brownrice.com?sn=westland&em=1&autostart=true"
+          id="bri_cam_1"
+          className="bri_embed"
+          title="Embedded Beach Cam"
+          >
+          </iframe>
+            {/* <iframe
+            iç
+            src={'https://live2.brownrice.com?sn=westland&em=1&autostart=true'}
+              /> */}
+
+      </div>
+
+
+
+
           <div className="video-responsive">
             <iframe
               width="853"
@@ -288,7 +308,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
             <h2>Video Production</h2>
-            <h3>Cinematographer, Editor, Motion Graphics, Color &amp; Sound</h3>
+            <h3>Cinematographer, Editor, Color, Sound &amp; Motion Graphics</h3>
             <ul>
               <motion.li
                 variants={liVariants}
