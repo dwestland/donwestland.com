@@ -137,7 +137,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
                 whileHover={'hover'}
                 whileTap={'tap'}
               >
-                GitHub: <a href = "https://github.com/dwestland" target="_blank" rel="noreferrer">https://github.com/dwestland</a>
+                GitHub: <a href = "https://github.com/dwestland" target="_blank" rel="noreferrer">github.com/dwestland</a>
               </motion.li>
               <motion.li
                 variants={liVariants}
@@ -241,7 +241,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={asideVariants} >
-            <img src="/images/don-westland.jpg" alt="Don Westland" />
+            <img src="/images/beach-cam-website.jpg" alt="Venice Beach Cam Website" />
           </motion.div>
         </motion.aside>
         <motion.section
@@ -252,38 +252,34 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
           <h2>Live Beach Cam</h2>
           <h3>Live Streaming Video from Venice Beach, California</h3>
+          <p>For over 20 years, Beach Cam has been broadcasting live from Venice Beach. One of the first webcams on the Internet. Over million visitors a year from all over the world</p>
 
-
-      <div>
-        <iframe
-          src="https://live2.brownrice.com?sn=westland&em=1&autostart=true"
-          id="bri_cam_1"
-          className="bri_embed"
-          title="Embedded Beach Cam"
-          >
-          </iframe>
-            {/* <iframe
-            iç
-            src={'https://live2.brownrice.com?sn=westland&em=1&autostart=true'}
-              /> */}
-
-      </div>
-
-
-
-
-          <div className="video-responsive">
-            <iframe
-              width="853"
-              height="480"
-              src={'https://www.youtube.com/embed/c4ogYaFSSQ4'}
-              frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-              title="Embedded youtube"
-            />
-          </div>
-                  </motion.div>
+          <ul>
+              <motion.li
+                variants={liVariants}
+                whileHover={'hover'}
+                whileTap={'tap'}
+              >
+                Website: <a href='https://www.westland.net/beachcam/' target="_blank" rel="noreferrer">Live Venice Beach Cam</a>
+              </motion.li>
+            </ul>
+            <div className='video-section-footer'>
+              <a
+                href="https://www.westland.net/beachcam/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <div className="video-link-wrapper">
+                  <img
+                    id="image"
+                    src="https://live4.brownrice.com/cam-images/westland.jpg"
+                    alt="Click for live Venice Beach Cam"
+                  />
+                  <div className="video-play-button"></div>
+                </div>
+              </a>
+            </div>
+          </motion.div>
         </motion.section>
       </div>
       <div className='row-spacer'>
@@ -298,7 +294,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={asideVariants} >
-            <img src="/images/westland-productions.jpg" alt="Don Westland" />
+            <img src="/images/westland-productions-website.jpg" alt="Don Westland" />
           </motion.div>
         </motion.aside>
         <motion.section

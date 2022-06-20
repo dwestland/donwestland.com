@@ -54,6 +54,35 @@ ul {
   margin: 60px 0;
 }
 
+.video-section-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.video-link-wrapper {
+  display: inline-block;
+  max-width: 540px;
+  margin-top: 20px;
+  opacity: 0.8;
+  position:relative;
+
+  &:hover {
+    opacity: 1.0;
+  }
+
+  .video-play-button {
+    // background-image: url("https://www.westland.net/images/play-button.png") center center no-repeat;
+    height: 70px;
+    left: 50%;
+    margin: -35px 0 0 -35px;
+    pointer-events: none;
+    position: absolute;
+    top: 40%;
+    width: 70px;
+    // z-index: 1000;
+  }
+}
+
 footer {
   padding: 0px 0 60px;
   text-align: center;
