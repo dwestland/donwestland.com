@@ -84,7 +84,7 @@ d888888b..d8888P         'b
 (88DWB8888888P            8)
 8888888888P               8
 Y88888888P     ee        .P      “Clean code always looks like it was
- Y888888(     8888      oP       written by someone who cares.”
+ Y888888(     8888      oP        written by someone who cares.”
   "Y88888b     ""     oP"
     "Y8888o._     _.oP"            - Michael Feathers
       '""Y888boodP""'
@@ -250,9 +250,9 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
-          <h2>Live Beach Cam</h2>
-          <h3>Live Streaming Video from Venice Beach, California</h3>
-          <p>For over 20 years, Beach Cam has been broadcasting live from Venice Beach. One of the first webcams on the Internet. Over million visitors a year from all over the world</p>
+          <h2>Beach Cam</h2>
+          <h3>Streaming Live from Venice, California</h3>
+          <p>For over 20 years, Beach Cam has been streaming live from Venice Beach. One of the first webcams on the Internet. With over a million visitors a year!</p>
 
           <ul>
               <motion.li
@@ -304,7 +304,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
             <h2>Video Production</h2>
-            <h3>Cinematographer, Editor, Color, Sound &amp; Motion Graphics</h3>
+            <h3>Cinematographer, editor, color, sound &amp; motion graphics</h3>
             <ul>
               <motion.li
                 variants={liVariants}

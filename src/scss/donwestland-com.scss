@@ -32,12 +32,12 @@ ul {
     max-width: 33%;
 
     img {
-      margin: auto;
       max-width: 400px;
     }
 
     div {
       display: flex;
+      margin: auto;
     }
   }
 
@@ -95,9 +95,6 @@ footer {
       margin: auto;
       max-width: inherit;
       width: 100%;
-      img {
-        margin: auto;
-      }
 
     }
     section {
