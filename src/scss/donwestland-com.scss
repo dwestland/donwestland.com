@@ -1,8 +1,6 @@
-// div, aside, section {
-//   border: 1px solid green;
-// }
+// donwestland-com.scss
 
-header {
+  header {
   border-radius: 5px;
   margin: 60px 0 80px;
   overflow:hidden;
@@ -23,7 +21,6 @@ ul {
 
 .row {
   display: flex;
-  // margin: 20px auto;
 
   aside {
     display: flex;
@@ -68,18 +65,6 @@ ul {
 
   &:hover {
     opacity: 1.0;
-  }
-
-  .video-play-button {
-    // background-image: url("https://www.westland.net/images/play-button.png") center center no-repeat;
-    height: 70px;
-    left: 50%;
-    margin: -35px 0 0 -35px;
-    pointer-events: none;
-    position: absolute;
-    top: 40%;
-    width: 70px;
-    // z-index: 1000;
   }
 }
 

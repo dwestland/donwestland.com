@@ -176,7 +176,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
             <h2>Telemedicine</h2>
             <h3>Develop HIPAA medical applications for the healthcare industry</h3>
-            <p>Create applications for doctor to patient communications. The Campaign Studio designs and builds email campaigns. Provides fully-integrated automation tools like appointment reminders, two-way texting and targeted email campaigns in one simple-to-use centralized dashboard.</p>
+            <p>Create applications for doctor to patient communications. This is the Campaign Studio, it can design and build email campaigns. Provides fully-integrated automation tools like appointment reminders, two-way texting and targeted email campaigns. This video shows some of the development work done on the app.</p>
             <div className="video-responsive">
               <iframe
                 width="853"
@@ -252,7 +252,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
           <h2>Beach Cam</h2>
           <h3>Streaming Live from Venice, California</h3>
-          <p>For over 20 years, Beach Cam has been streaming live from Venice Beach. One of the first webcams on the Internet. With over a million visitors a year!</p>
+          <p>For over 20 years, Beach Cam has been streaming live from Venice Beach. One of the first webcams on the Internet. Beach Cam gets over a million visitors a year!</p>
 
           <ul>
               <motion.li
@@ -275,7 +275,6 @@ Y88888888P     ee        .P      “Clean code always looks like it was
                     src="https://live4.brownrice.com/cam-images/westland.jpg"
                     alt="Click for live Venice Beach Cam"
                   />
-                  <div className="video-play-button"></div>
                 </div>
               </a>
             </div>
