@@ -195,44 +195,6 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         &nbsp; 
       </div>
 
-      {/* MyBeachCams.com 
-      <div className='row'>
-        <motion.aside
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={asideVariants} >
-            <img src="/images/don-westland.jpg" alt="Don Westland" />
-          </motion.div>
-        </motion.aside>
-        <motion.section
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={sectionVariants} >
-            <h2>MyBeachCams.com</h2>
-            <h3>Live Streaming Video from Venice Beach, CA</h3>
-            <div className="video-responsive">
-              <iframe
-                width="853"
-                height="480"
-                src={'https://www.youtube.com/embed/c4ogYaFSSQ4'}
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-                title="Embedded youtube"
-              />
-            </div>
-          </motion.div>
-        </motion.section>
-      </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
-      */}
-
       {/* Beach Cam */}
       <div className='row'>
         <motion.aside
@@ -253,7 +215,6 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <h2>Beach Cam</h2>
           <h3>Streaming Live from Venice, California</h3>
           <p>For over 20 years, Beach Cam has been streaming live from Venice Beach. One of the first webcams on the Internet. Beach Cam has over a million visitors a year!</p>
-
           <ul>
               <motion.li
                 variants={liVariants}

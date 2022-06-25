@@ -90,10 +90,10 @@ p {
 }
 
 a {
-  color: var(--blue-060);
+  color: hsl(200deg 91% 35%);
   text-decoration: none;
   &:hover {
-    color: var(--blue-070);
+    color: hsl(200deg 91% 25%);
     text-decoration: underline;
   }
 }
