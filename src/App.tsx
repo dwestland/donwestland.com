@@ -264,15 +264,15 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
           <h2>CSS Menu</h2>
-          <h3>Responsive, mobile friendly menu with no JavaScript</h3>
-          <p>This is a CSS only, SEO friendly, dropdown horizontal nav bar that uses a simple HTML nested unordered list. It supports nested lists, three deep. It also has a responsive mobile style bottom nav with a hamburger menu button. Works without interfering with your JavaScript or framework.</p>
+          <h3>Responsive, SEO friendly menu with no JavaScript</h3>
+          <p>This is a CSS only, dropdown horizontal nav bar that uses a simple HTML nested unordered list. It supports nested lists, three deep. It also has a responsive mobile style bottom nav with a hamburger menu button. Works without interfering with your JavaScript or framework.</p>
           <ul>
               <motion.li
                 variants={liVariants}
                 whileHover={'hover'}
                 whileTap={'tap'}
               >
-                Website: <a href='https://codepen.io/dwestland/pen/GREZxaO' target="_blank" rel="noreferrer">CSS Only Menu</a>
+                Website: <a href='https://codepen.io/dwestland/pen/PowXbLM' target="_blank" rel="noreferrer">CSS Only Menu</a>
               </motion.li>
             </ul>
           </motion.div>
