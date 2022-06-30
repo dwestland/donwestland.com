@@ -246,6 +246,42 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         &nbsp; 
       </div>
 
+      {/* CSS Menu */}
+      <div className='row'>
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants} >
+            <img src="/images/css-menu-website.jpg" alt="CSS menu on Codepen" />
+          </motion.div>
+        </motion.aside>
+        <motion.section
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={sectionVariants} >
+          <h2>CSS Menu</h2>
+          <h3>Responsive, mobile friendly menu with no JavaScript</h3>
+          <p>This is a CSS only, SEO friendly, dropdown horizontal nav bar that uses a simple HTML nested unordered list. It supports nested lists, three deep. It also has a responsive mobile style bottom nav with a hamburger menu button. Works without interfering with your JavaScript or framework.</p>
+          <ul>
+              <motion.li
+                variants={liVariants}
+                whileHover={'hover'}
+                whileTap={'tap'}
+              >
+                Website: <a href='https://codepen.io/dwestland/pen/GREZxaO' target="_blank" rel="noreferrer">CSS Only Menu</a>
+              </motion.li>
+            </ul>
+          </motion.div>
+        </motion.section>
+      </div>
+      <div className='row-spacer'>
+        &nbsp; 
+      </div>
+
       {/* Westland Productions */}
       <div className='row'>
         <motion.aside
@@ -274,7 +310,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
                 Website: <a href='https://www.westlandproductions.com/' target="_blank" rel="noreferrer">WestlandProductions.com</a>
               </motion.li>
             </ul>
-            <p>Passion for video production. Over a million views on YouTube! Produce documentaries and travel videos.</p>
+            <p>Passion for video production. Produce documentaries and travel videos. Over a million views on YouTube!</p>
           </motion.div>
         </motion.section>
       </div>
