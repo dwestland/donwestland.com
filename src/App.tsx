@@ -144,7 +144,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
                 whileHover={'hover'}
                 whileTap={'tap'}
               >
-                Resume: <a href="./westland-resume-2022.pdf" target="blank">westland-resume-2022.pdf</a>
+                Resume: <a href="./westland-resume-2023.pdf" target="blank">westland-resume-2023.pdf</a>
               </motion.li>
             </ul>
           </motion.div>
