@@ -123,7 +123,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants} >
             <h1>Don Westland</h1>
-            <h2>Developer</h2>
+            <h2>Full Stack & AI<br />Developer</h2>
             <ul>
               <motion.li
                 variants={liVariants}
