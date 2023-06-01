@@ -307,9 +307,9 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           viewport={{ once: true, amount: 0.6 }}
         >
           <motion.div variants={sectionVariants} >
-          <h2>AI Inspire Me.coom</h2>
+          <h2>AI Inspire Me.com</h2>
           <h3>An app to give you inspirational messages</h3>
-          <p>First AI app made on 12-25-22 using OpenAI's text-davinci-003 API . To give you inspirational messages about the things you do through out your day.</p>
+          <p>My first AI app, made on 12-25-22 using OpenAI's text-davinci-003 API. The app gives you inspirational messages about the things you do through out your day.</p>
           <ul>
               <motion.li
                 variants={liVariants}
