@@ -83,10 +83,10 @@ d888888b..d8888P         'b
 88888888888888"           8
 (88DWB8888888P            8)
 8888888888P               8
-Y88888888P     ee        .P      “Clean code always looks like it was
- Y888888(     8888      oP        written by someone who cares.”
+Y88888888P     ee        .P   “Clean code always looks like it was
+ Y888888(     8888      oP     written by someone who cares.”
   "Y88888b     ""     oP"
-    "Y8888o._     _.oP"            - Michael Feathers
+    "Y8888o._     _.oP"         - Michael Feathers
       '""Y888boodP""'
     `)
   }, [])
@@ -156,7 +156,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
         &nbsp; 
       </div>
       <h3>Skills</h3>
-        <p><strong>Front End:</strong> JavaScript, TypeScript, React Classes & Hooks, Next.js 13 with server components, Redux, Saga, Webpack, React Query, RegEx, SCSS DevOps: Docker, AWS, EC2, RDS, S3, CloudFront, Linux security and administration <strong>Backend:</strong> Node, Express, Postgres, Nginx, Authentication, SQL, Pg, Prisma, PM2, bash scripting, Jest, REST, GraphQL <strong>Team:</strong> Jira, Gitflow, Scrum, Agile, code reviews</p>
+        <p><strong>Front End:</strong>JavaScript, TypeScript, React Classes and Hooks, Next.js 13 with server components, Redux, Saga, Webpack, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker, AWS, EC2, RDS, S3, CloudFront, Linux security and administration <strong>Backend:</strong> Node, Express, Python, Postgres, Django, Flask, Nginx, Authentication, SQL, Pg, Prisma, ORMs, PM2, bash scripting, Jest, REST, GraphQL <strong>Team:</strong> Jira, Gitflow, Scrum, Agile, code reviews</p>
         <p><strong>AI Skills:</strong> GitHub Copilot, OpenAI GPT-4 API, Prompt Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter Notebook, Colab, Prepare data from text, video or audio for vector database, chunking data for embeddings for augmentation retrieval from Large Language Model (LLM)</p>
       <div className='row-spacer'>
         &nbsp; 
@@ -181,14 +181,14 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
           <h2>AI Chatbot</h2>
           <h3>Customer Support AI Chatbot</h3>
-          <p>Using OpenAI's gpt-3.5-turbo API, Next.js 13, TypeScript and Tailwind. Features include optimistic UI updates with error handling and rate limiting</p>
+          <p>Using OpenAI's gpt-3.5-turbo API, Next.js 13, TypeScript and Tailwind. Features include optimistic UI updates with error handling and rate limiting.</p>
           <ul>
               <motion.li
                 variants={liVariants}
                 whileHover={'hover'}
                 whileTap={'tap'}
               >
-                Website: <a href='https://www.chattastic.ai/' target="_blank" rel="noreferrer">AI Chatbot</a>
+                Website: <a href='https://spa.westland.net' target="_blank" rel="noreferrer">AI Chatbot</a>
               </motion.li>
             </ul>
           </motion.div>
@@ -309,7 +309,7 @@ Y88888888P     ee        .P      “Clean code always looks like it was
           <motion.div variants={sectionVariants} >
           <h2>AI Inspire Me.com</h2>
           <h3>An app to give you inspirational messages</h3>
-          <p>My first AI app, made on 12-25-22 using OpenAI's text-davinci-003 API. The app gives you inspirational messages about the things you do through out your day.</p>
+          <p>A fun app made 12-2022 using OpenAI's text-davinci-003 API. The app gives you inspirational messages about the things you do through out your day.</p>
           <ul>
               <motion.li
                 variants={liVariants}
