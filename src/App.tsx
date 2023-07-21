@@ -156,11 +156,11 @@ Y88888888P     ee        .P   “Clean code always looks like it was
         &nbsp; 
       </div>
       <h3>Skills</h3>
-        <p><strong>Front End:</strong>JavaScript, TypeScript, React Classes and Hooks, Next.js 13 with server components, Redux, Saga, Webpack, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker, AWS, EC2, RDS, S3, CloudFront, Linux security and administration <strong>Backend:</strong> Node, Express, Python, Postgres, Django, Flask, Nginx, Authentication, SQL, Pg, Prisma, ORMs, PM2, bash scripting, Jest, REST, GraphQL <strong>Team:</strong> Jira, Gitflow, Scrum, Agile, code reviews</p>
+        <p><strong>Front End:</strong> React Classes & Hooks, TypeScript, React Native, Next.js 13 with server components, JavaScript, Redux, Saga, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker, AWS, EC2, RDS, S3, CloudFront, Linux security and administration <strong>Backend:</strong> Node, Express, Python, Django, Flask, Nginx, Authentication, Relational DBs: Postgres, MySQL, SQL, Pg, Prisma, REST, GraphQL, ORMs, PM2, bash scripting, Jest <strong>Team:</strong> Jira, Gitflow, Scrum, Agile, code reviews</p>
         <p><strong>AI Skills:</strong> GitHub Copilot, OpenAI GPT-4 API, Prompt Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter Notebook, Colab, Prepare data from text, video or audio for vector database, chunking data for embeddings for augmentation retrieval from Large Language Model (LLM)</p>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+        <div className='row-spacer'>
+          &nbsp; 
+        </div>
 
       {/* Ai Chatbot */}
       <div className='row'>
