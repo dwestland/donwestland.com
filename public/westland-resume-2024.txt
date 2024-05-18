@@ -1,0 +1,29 @@
+Don Westland
+
+310-721-7442
+don@westland.net
+
+4712 Admiralty Way #1144
+Marina del Rey, CA 90292
+
+Project Site: https://www.DonWestland.com/
+GitHub: https://github.com/dwestland
+
+Skills
+Front End: React Hooks & Classes, TypeScript, React Native, Next.js 14 with Server Actions & App Router, JavaScript, Redux, Saga, React Query, RegEx, HTML, SCSS DevOps: Docker, AWS, EC2, RDS, S3, CloudFront, Linux security & administration Backend: Node, Express, Python, Django, Flask, Nginx, Authentication, Postgres, MySQL, SQL, Pg, Prisma, REST, GraphQL, ORMs, PM2, bash scripting, Jest Team: Jira, Gitflow, Scrum, Agile, code reviews
+
+AI Skills: Create embeddings for Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). GitHub Copilot, OpenAI GPT-4 API, Advanced Prompt Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter Notebook, Colab
+
+Experience
+Senior Developer, Cognizant (DirecTV)
+EL SEGUNDO, CA - OCT 2023 to Present
+Worked for the DirecTV client. Worked on front-end development using Next.js to deliver large-scale software solutions. Worked with off-shore team to resolve complex performance and scaleability within development environment, critical thinkerTechnologies used:​ React, TypeScript, Next.js, Material UI, JavaScript, AWS, Jenkins, CodeCloud, REST, RegEx, Jest
+
+Front End Developer, Internet Brands - WebMD
+EL SEGUNDO, CA - OCT 2017 to MAY 2023
+Developed HIPAA compliant telemedicine applications using micro services. Used React with deeply nested Redux state using REST APIs. Updated legacy codebase with in-house framework based on Next.js across all health businesses. Added new features as well as bug fixes. Built pixel-perfect UI from Figma. Used SQL scripts to update Postgres DB. Two week sprints using Jira. Performed code reviews and mentored new team members. Worked closely with local teams as well as international teams.Technologies used:​ React, Next.js, Redux, Saga, SQL, JavaScript, CoffeeScript, Postgres, REST, GraphQL, RegEx, Webpack, GitLab, Jest, Docker
+
+Developer, IRS ExpressBEVERLY HILLS, CA - AUG 2015 to OCT 2017Developed a legal services app for IRS debt reduction which calculates a tax payer's strategy for the IRS negotiations. Determines tax payer's allowable expenses by their demographics. Produced completed PDF forms for proper IRS submission.Technologies used:​ Python, Django, Flask, Postgres, AWS, EC2, RDS,PHP, Angular, JavaScript, jQuery, Gulp, Wordpress, Premiere Pro, Photoshop
+
+Education 
+Santa Monica College / AA Business Administration

@@ -1,9 +1,8 @@
-import React, { useEffect } from 'react'
-import { motion } from 'framer-motion'
-import './scss/main.scss'
+import React, { useEffect } from "react";
+import { motion } from "framer-motion";
+import "./scss/main.scss";
 
 function App() {
-
   const headerVariants = {
     offscreen: {
       opacity: 0,
@@ -15,63 +14,63 @@ function App() {
       scale: 1,
       // x: 0,
       transition: {
-        bounce: .5,
-        delay: .4,
+        bounce: 0.5,
+        delay: 0.4,
         stiffness: 100,
-        type: 'spring',
-      }
-    }
-  }
+        type: "spring",
+      },
+    },
+  };
 
   const asideVariants = {
     offscreen: {
       opacity: 0,
       scale: 0.8,
-      y: 100, 
+      y: 100,
     },
     onscreen: {
       opacity: 1,
       scale: 1,
       y: 0,
       transition: {
-        duration: .3,
+        duration: 0.3,
         type: "Tween",
-      }
-    }
-  }
+      },
+    },
+  };
 
   const sectionVariants = {
     offscreen: {
       opacity: 0,
       scale: 0.9,
-      x: 40
+      x: 40,
     },
     onscreen: {
       opacity: 1,
       scale: 1,
       x: 0,
       transition: {
-        delay: .2,
+        delay: 0.2,
         bounce: 1.3,
         stiffness: 100,
         type: "spring",
-      }
-    }
-  }
+      },
+    },
+  };
 
   const liVariants = {
     hover: {
       scale: 1.05,
-      originX: .2,
+      originX: 0.2,
       transition: {
-        type: 'spring',
-        stiffness: 300 
-      }
+        type: "spring",
+        stiffness: 300,
+      },
     },
     tap: {
-      scale: .95,
-    }
-  }
+      scale: 0.95,
+    },
+  };
 
   useEffect(() => {
     console.log(`
@@ -88,12 +87,11 @@ Y88888888P     ee        .P   “Clean code always looks like it was
   "Y88888b     ""     oP"
     "Y8888o._     _.oP"         - Michael Feathers
       '""Y888boodP""'
-    `)
-  }, [])
-  
+    `);
+  }, []);
+
   return (
     <div className="container">
-
       {/* Header */}
       <motion.header
         initial="offscreen"
@@ -106,13 +104,13 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       </motion.header>
 
       {/* Preamble */}
-      <div className='row preamble'>
+      <div className="row preamble">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={asideVariants} >
+          <motion.div variants={asideVariants}>
             <img src="/images/don-westland.jpg" alt="Don Westland" />
           </motion.div>
         </motion.aside>
@@ -121,30 +119,44 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
+          <motion.div variants={sectionVariants}>
             <h1>Don Westland</h1>
-            <h2>Full Stack & AI<br />Developer</h2>
+            <h2>
+              Full Stack & AI
+              <br />
+              Developer
+            </h2>
             <ul>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                Email: <a href = "mailto: don@westland.net">don@westland.net</a>
+                Email: <a href="mailto: don@westland.net">don@westland.net</a>
               </motion.li>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                GitHub: <a href = "https://github.com/dwestland" target="_blank" rel="noreferrer">github.com/dwestland</a>
+                GitHub:{" "}
+                <a
+                  href="https://github.com/dwestland"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  github.com/dwestland
+                </a>
               </motion.li>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                Resume: <a href="./westland-resume-2023.pdf" target="blank">westland-resume-2023.pdf</a>
+                Resume:{" "}
+                <a href="./westland-resume-2024.pdf" target="blank">
+                  westland-resume-2024.pdf
+                </a>
               </motion.li>
             </ul>
           </motion.div>
@@ -152,18 +164,74 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       </div>
 
       {/* Skills */}
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
       <h3>Skills</h3>
-        <p><strong>Front End:</strong> React Classes & Hooks, TypeScript, React Native, Next.js 13 with server components, JavaScript, Redux, Saga, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker, AWS, EC2, RDS, S3, CloudFront, Linux security and administration <strong>Backend:</strong> Node, Express, Python, Django, Flask, Nginx, Authentication, Relational DBs: Postgres, MySQL, SQL, Pg, Prisma, REST, GraphQL, ORMs, PM2, bash scripting, Jest <strong>Team:</strong> Jira, Gitflow, Scrum, Agile, code reviews</p>
-        <p><strong>AI Skills:</strong> GitHub Copilot, OpenAI GPT-4 API, Prompt Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter Notebook, Colab, Prepare data from text, video or audio for vector database, chunking data for embeddings for augmentation retrieval from Large Language Model (LLM)</p>
-        <div className='row-spacer'>
-          &nbsp; 
-        </div>
+      <p>
+        <strong>Front End:</strong> React Hooks & Classes, TypeScript, React
+        Native, Next.js 14 with Server Actions & App Router, JavaScript, Redux,
+        Saga, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker,
+        AWS, EC2, RDS, S3, CloudFront, Linux security & administration{" "}
+        <strong>Backend:</strong> Node, Express, Python, Django, Flask, Nginx,
+        Authentication, Postgres, MySQL, SQL, Pg, Prisma, REST, GraphQL, ORMs,
+        PM2, bash scripting, Jest <strong>Team:</strong> Jira, Gitflow, Scrum,
+        Agile, code reviews, pair programming, mentoring
+      </p>
+      <p>
+        <strong>AI Skills:</strong>
+        Create embeddings for Retrieval-Augmented Generation (RAG) with Large
+        Language Model (LLM), GitHub Copilot, OpenAI GPT-4 API, Advanced Prompt
+        Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter
+        Notebook, Colab
+      </p>
+      <div className="row-spacer">&nbsp;</div>
+
+      {/* Ai Inspire Me */}
+      <div className="row">
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants}>
+            <img src="/images/ai-inspire-me.jpg" alt="AI Inspire Me" />
+          </motion.div>
+        </motion.aside>
+        <motion.section
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={sectionVariants}>
+            <h2>AI Inspire Me.com</h2>
+            <h3>An app to give you inspirational messages</h3>
+            <p>
+              A fun app made 12-2022 using OpenAI's GPT-3.5 Turbo API. The app
+              gives you inspirational messages about the things you do through
+              out your day.
+            </p>
+            <ul>
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Website:{" "}
+                <a
+                  href="https://www.aiinspireme.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AI Inspire Me
+                </a>
+              </motion.li>
+            </ul>
+          </motion.div>
+        </motion.section>
+      </div>
+      <div className="row-spacer">&nbsp;</div>
 
       {/* Ai Chatbot */}
-      <div className='row'>
+      {/* <div className='row'>
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
@@ -196,36 +264,42 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       </div>
       <div className='row-spacer'>
         &nbsp; 
-      </div>
+      </div> */}
 
       {/* Demand Force */}
-      <div className='row'>
+      <div className="row">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
-          >
-          <motion.div variants={asideVariants} 
-          >
+        >
+          <motion.div variants={asideVariants}>
             <img src="/images/internet-brands-logos.jpg" alt="Don Westland" />
           </motion.div>
         </motion.aside>
-        <aside>
-        </aside>
+        <aside></aside>
         <motion.section
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
+          <motion.div variants={sectionVariants}>
             <h2>Telemedicine</h2>
-            <h3>Develop HIPAA medical applications for the healthcare industry</h3>
-            <p>Create applications for doctor to patient communications. This is the Campaign Studio, it can design and build targeted email campaigns. Also provides fully-integrated automation tools like appointment reminders and two-way texting. This video shows some of the development work done on the app.</p>
+            <h3>
+              Develop HIPAA medical applications for the healthcare industry
+            </h3>
+            <p>
+              Create applications for doctor to patient communications. This is
+              the Campaign Studio, it can design and build targeted email
+              campaigns. Also provides fully-integrated automation tools like
+              appointment reminders and two-way texting. This video shows some
+              of the development work done on the app.
+            </p>
             <div className="video-responsive">
               <iframe
                 width="853"
                 height="480"
-                src={'https://www.youtube.com/embed/l_CLE2uUEAY'}
+                src={"https://www.youtube.com/embed/l_CLE2uUEAY"}
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
@@ -235,19 +309,20 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           </motion.div>
         </motion.section>
       </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
 
       {/* Beach Cam */}
-      <div className='row'>
+      <div className="row">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={asideVariants} >
-            <img src="/images/beach-cam-website.jpg" alt="Venice Beach Cam Website" />
+          <motion.div variants={asideVariants}>
+            <img
+              src="/images/beach-cam-website.jpg"
+              alt="Venice Beach Cam Website"
+            />
           </motion.div>
         </motion.aside>
         <motion.section
@@ -255,20 +330,31 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
-          <h2>Beach Cam</h2>
-          <h3>Streaming Live from Venice, California</h3>
-          <p>For over 20 years, Beach Cam has been streaming live from Venice Beach. One of the first webcams on the Internet. Beach Cam has over a million visitors a year!</p>
-          <ul>
+          <motion.div variants={sectionVariants}>
+            <h2>Beach Cam</h2>
+            <h3>Streaming Live from Venice, California</h3>
+            <p>
+              For over 20 years, Beach Cam has been streaming live from Venice
+              Beach. One of the first webcams on the Internet. Beach Cam has
+              over a million visitors a year!
+            </p>
+            <ul>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                Website: <a href='https://www.westland.net/beachcam/' target="_blank" rel="noreferrer">Live Venice Beach Cam</a>
+                Website:{" "}
+                <a
+                  href="https://www.westland.net/beachcam/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Venice Beach Cam
+                </a>
               </motion.li>
             </ul>
-            <div className='video-section-footer'>
+            <div className="video-section-footer">
               <a
                 href="https://www.westland.net/beachcam/"
                 rel="noreferrer"
@@ -286,54 +372,16 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           </motion.div>
         </motion.section>
       </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
-
-      {/* Ai Inspire Me */}
-      <div className='row'>
-        <motion.aside
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={asideVariants} >
-            <img src="/images/ai-inspire-me.jpg" alt="AI Inspire Me" />
-          </motion.div>
-        </motion.aside>
-        <motion.section
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={sectionVariants} >
-          <h2>AI Inspire Me.com</h2>
-          <h3>An app to give you inspirational messages</h3>
-          <p>A fun app made 12-2022 using OpenAI's text-davinci-003 API. The app gives you inspirational messages about the things you do through out your day.</p>
-          <ul>
-              <motion.li
-                variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
-              >
-                Website: <a href='https://www.aiinspireme.com/' target="_blank" rel="noreferrer">AI Inspire Me</a>
-              </motion.li>
-            </ul>
-          </motion.div>
-        </motion.section>
-      </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
 
       {/* CSS Menu */}
-      <div className='row'>
+      <div className="row">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={asideVariants} >
+          <motion.div variants={asideVariants}>
             <img src="/images/css-menu-website.jpg" alt="CSS menu on Codepen" />
           </motion.div>
         </motion.aside>
@@ -342,35 +390,49 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
-          <h2>CSS Menu</h2>
-          <h3>Responsive, SEO friendly menu with no JavaScript</h3>
-          <p>This is a CSS only, dropdown horizontal nav bar that uses a simple HTML nested unordered list. It supports nested lists, three deep. It also has a responsive mobile style bottom nav with a hamburger menu button. Works without interfering with your JavaScript or framework.</p>
-          <ul>
+          <motion.div variants={sectionVariants}>
+            <h2>CSS Menu</h2>
+            <h3>Responsive, SEO friendly menu with no JavaScript</h3>
+            <p>
+              This is a CSS only, dropdown horizontal nav bar that uses a simple
+              HTML nested unordered list. It supports nested lists, three deep.
+              It also has a responsive mobile style bottom nav with a hamburger
+              menu button. Works without interfering with your JavaScript or
+              framework.
+            </p>
+            <ul>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                Website: <a href='https://codepen.io/dwestland/pen/PowXbLM' target="_blank" rel="noreferrer">CSS Only Menu</a>
+                Website:{" "}
+                <a
+                  href="https://codepen.io/dwestland/pen/PowXbLM"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CSS Only Menu
+                </a>
               </motion.li>
             </ul>
           </motion.div>
         </motion.section>
       </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
 
       {/* Westland Productions */}
-      <div className='row'>
+      <div className="row">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={asideVariants} >
-            <img src="/images/westland-productions-website.jpg" alt="Don Westland" />
+          <motion.div variants={asideVariants}>
+            <img
+              src="/images/westland-productions-website.jpg"
+              alt="Don Westland"
+            />
           </motion.div>
         </motion.aside>
         <motion.section
@@ -378,34 +440,42 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
+          <motion.div variants={sectionVariants}>
             <h2>Video Production</h2>
             <h3>Cinematographer, editor, color, sound &amp; motion graphics</h3>
             <ul>
               <motion.li
                 variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
+                whileHover={"hover"}
+                whileTap={"tap"}
               >
-                Website: <a href='https://www.westlandproductions.com/' target="_blank" rel="noreferrer">WestlandProductions.com</a>
+                Website:{" "}
+                <a
+                  href="https://www.westlandproductions.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  WestlandProductions.com
+                </a>
               </motion.li>
             </ul>
-            <p>Passion for video production. Produce documentaries and travel videos. Over a million views on YouTube!</p>
+            <p>
+              Passion for video production. Produce documentaries and travel
+              videos. Over a million views on YouTube!
+            </p>
           </motion.div>
         </motion.section>
       </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
 
       {/* USMC */}
-      <div className='row'>
-         <motion.aside
+      <div className="row">
+        <motion.aside
           initial="offscreen"
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={asideVariants} >
+          <motion.div variants={asideVariants}>
             <img src="/images/marine-corps-pics.jpg" alt="Marine Corps" />
           </motion.div>
         </motion.aside>
@@ -414,23 +484,23 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           whileInView="onscreen"
           viewport={{ once: true, amount: 0.6 }}
         >
-          <motion.div variants={sectionVariants} >
+          <motion.div variants={sectionVariants}>
             <h2>U.S.M.C.</h2>
             <h3>United States Marine Corps Reserve</h3>
             <p>
-            Helicopter Mechanic and Crew Chief<br />
-            E-4, Honorable Discharge</p>
+              Helicopter Mechanic and Crew Chief
+              <br />
+              E-4, Honorable Discharge
+            </p>
           </motion.div>
         </motion.section>
       </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div>
+      <div className="row-spacer">&nbsp;</div>
       <footer>
-      <p>&copy; Don Westland {new Date().getFullYear()}</p>
+        <p>&copy; Don Westland {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
 }
 
-export default App
+export default App;
