@@ -154,8 +154,8 @@ Y88888888P     ee        .P   “Clean code always looks like it was
                 whileTap={"tap"}
               >
                 Resume:{" "}
-                <a href="./westland-resume-2024.pdf" target="blank">
-                  westland-resume-2024.pdf
+                <a href="./westland-resume-2025.pdf" target="blank">
+                  westland-resume-2025.pdf
                 </a>
               </motion.li>
             </ul>
@@ -167,104 +167,26 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       <div className="row-spacer">&nbsp;</div>
       <h3>Skills</h3>
       <p>
-        <strong>Front End:</strong> React Hooks & Classes, TypeScript, React
-        Native, Next.js 14 with Server Actions & App Router, JavaScript, Redux,
-        Saga, React Query, RegEx, HTML, SCSS <strong>DevOps:</strong> Docker,
-        AWS, EC2, RDS, S3, CloudFront, Linux security & administration{" "}
-        <strong>Backend:</strong> Node, Express, Python, Django, Flask, Nginx,
-        Authentication, Postgres, MySQL, SQL, Pg, Prisma, REST, GraphQL, ORMs,
-        PM2, bash scripting, Jest <strong>Team:</strong> Jira, Gitflow, Scrum,
-        Agile, code reviews, pair programming, mentoring
+        <strong>Front End: </strong>Next.js 15 with Server Actions & App Router,
+        TypeScript, React Hooks & Classes, React Native, JavaScript, Redux,
+        Redux-Toolkit, Saga, React Query, RegEx, HTML, SCSS DevOps: Docker, AWS,
+        EC2, RDS, S3, CloudFront, Linux security & administration
+        <br />
+        <strong>Backend: </strong>Node, Express, SSR, Python (Django, Flask),
+        Nginx, Authentication, Database Administration (Postgres, MySQL, SQL,
+        SQLite, MongoDB) ORMs (Prisma, Pg, Sequelize, Mongoose), Cloudflare,
+        CloudFront, PM2, bash scripting, Jest
+        <br />
+        <strong>Team: </strong>Team Lead, Jira, Gitflow, Scrum, Agile, code
+        reviews
       </p>
       <p>
-        <strong>AI Skills:</strong>
-        Create embeddings for Retrieval-Augmented Generation (RAG) with Large
-        Language Model (LLM), GitHub Copilot, OpenAI GPT-4 API, Advanced Prompt
-        Engineering, ChromaDB, Pinecone Vector DB, LangChain, Python, Jupyter
-        Notebook, Colab
+        <strong>AI Skills: </strong>Retrieval-Augmented Generation (RAG) with
+        Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced
+        Prompt Engineering, Vector Database (Pinecone, ChromaDB), LangChain,
+        Python, Jupyter Notebook, Colab
       </p>
       <div className="row-spacer">&nbsp;</div>
-
-      {/* Ai Inspire Me */}
-      <div className="row">
-        <motion.aside
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={asideVariants}>
-            <img src="/images/ai-inspire-me.jpg" alt="AI Inspire Me" />
-          </motion.div>
-        </motion.aside>
-        <motion.section
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={sectionVariants}>
-            <h2>AI Inspire Me.com</h2>
-            <h3>An app to give you inspirational messages</h3>
-            <p>
-              A fun app made 12-2022 using OpenAI's GPT-3.5 Turbo API. The app
-              gives you inspirational messages about the things you do through
-              out your day.
-            </p>
-            <ul>
-              <motion.li
-                variants={liVariants}
-                whileHover={"hover"}
-                whileTap={"tap"}
-              >
-                Website:{" "}
-                <a
-                  href="https://www.aiinspireme.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  AI Inspire Me
-                </a>
-              </motion.li>
-            </ul>
-          </motion.div>
-        </motion.section>
-      </div>
-      <div className="row-spacer">&nbsp;</div>
-
-      {/* Ai Chatbot */}
-      {/* <div className='row'>
-        <motion.aside
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={asideVariants} >
-            <img src="/images/ai-chatbot-beta.jpg" alt="AI Chatbot" />
-          </motion.div>
-        </motion.aside>
-        <motion.section
-          initial="offscreen"
-          whileInView="onscreen"
-          viewport={{ once: true, amount: 0.6 }}
-        >
-          <motion.div variants={sectionVariants} >
-          <h2>AI Chatbot</h2>
-          <h3>Customer Support AI Chatbot</h3>
-          <p>Using OpenAI's gpt-3.5-turbo API, Next.js 13, TypeScript and Tailwind. Features include optimistic UI updates with error handling and rate limiting.</p>
-          <ul>
-              <motion.li
-                variants={liVariants}
-                whileHover={'hover'}
-                whileTap={'tap'}
-              >
-                Website: <a href='https://spa.westland.net' target="_blank" rel="noreferrer">AI Chatbot</a>
-              </motion.li>
-            </ul>
-          </motion.div>
-        </motion.section>
-      </div>
-      <div className='row-spacer'>
-        &nbsp; 
-      </div> */}
 
       {/* Demand Force */}
       <div className="row">
@@ -306,6 +228,51 @@ Y88888888P     ee        .P   “Clean code always looks like it was
                 title="Embedded youtube"
               />
             </div>
+          </motion.div>
+        </motion.section>
+      </div>
+      <div className="row-spacer">&nbsp;</div>
+
+      {/* Ai Inspire Me */}
+      <div className="row">
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants}>
+            <img src="/images/ai-inspire-me.jpg" alt="AI Inspire Me" />
+          </motion.div>
+        </motion.aside>
+        <motion.section
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={sectionVariants}>
+            <h2>AI Inspire Me.com</h2>
+            <h3>An app to give you inspirational messages</h3>
+            <p>
+              A fun app using OpenAI's GPT-3.5 Turbo API. The app gives you
+              inspirational messages about the things you do through out your
+              day.
+            </p>
+            <ul>
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Website:{" "}
+                <a
+                  href="https://www.aiinspireme.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  AI Inspire Me
+                </a>
+              </motion.li>
+            </ul>
           </motion.div>
         </motion.section>
       </div>
