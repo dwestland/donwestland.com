@@ -1,53 +1,59 @@
 Donald Westland
 Front End, Full Stack and AI Developer
-Marina del Rey, CA 90292
-don@westland.net    310-721-7442					
+Marina del Rey, CA
+don@westland.net    310-721-7442	
 
 Project Site: https://www.DonWestland.com
 LinkedIn: https://www.linkedin.com/in/donwestland/
 GitHub: https://github.com/dwestland
 
-Profesional Summary
-Results-driven Full-stack and AI Developer proficient in Next.js 15, React, Python, and cutting-edge AI technologies including RAG, LLM, and OpenAI API. Proven ability to architect and implement high-performance web applications and AI-driven solutions.  Eager to leverage expertise in front-end, full-stack, and AI development to contribute to innovative projects.
+Professional Summary
 
-Skills  Front End: Next.js 15 with Server Actions & App Router, TypeScript, React Hooks & Classes, React Native, JavaScript, Redux, Redux-Toolkit, Saga, React Query, RegEx, HTML, SCSS DevOps: Docker, AWS, EC2, RDS, S3, CloudFront, Linux security & administration
-Backend: Node, Express, SSR, Python (Django, Flask), Nginx, Authentication, Database Administration (Postgres, MySQL, SQL, SQLite, MongoDB) ORMs (Prisma, Pg, Sequelize, Mongoose), PM2, bash scripting, Jest
+Results-oriented Full-stack and AI Developer proficient in modern technologies including React, Next.js, JavaScript, Python, and AI frameworks (RAG, LLM, OpenAI API).  Demonstrated ability to architect and build high-performance web applications and innovative AI solutions.  Seeking to leverage expertise in front end, full-stack, and AI development to contribute to impactful projects.
+
+Skills
+
+Front End: Next.js 15 (Server Actions & App Router), TypeScript, React (Functional Hooks & Classes), React Native, JavaScript, Redux (Redux-Toolkit, Saga), React Query, Jest, RegEx, HTML, SCSS
+Backend: Node, Express, SSR, Python (Django, Flask), Nginx, Authentication, Database Administration (Postgres, MySQL, SQLite, MongoDB), SQL Scripting, ORMs (Prisma, Pg, Sequelize, Mongoose), PM2, bash scripting
+DevOps: Docker, AWS, EC2, RDS, S3, CloudFront, Cloudflare, Linux security & administration
 Team: Team Lead, Jira, Gitflow, Scrum, Agile, code reviews
 
-AI Skills: Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced Prompt Engineering, Vector Database (Pinecone, ChromaDB), LangChain, Python, Jupyter Notebook, Colab
+AI Skills: Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced Prompt Engineering, Vector Databases (Pinecone, ChromaDB), LangChain, Python, Jupyter Notebook, Colab
 
 Experience 
 
 AI & Full-Stack Engineering & Consulting	Jun 2024 to Present
 Marina del Rey, CA
 
-Built robust platforms of AI-driven services, applying expertise in React, Next.js, Python and OpenAI API.
-Engineered high-performance, SEO-optimized content platforms, resulting in increased advertising revenue through strategic SEO implementation.
-Created innovative applications with advanced AI features, including robust authentication, scalable database management, and OpenAI API integration to enhance user engagement and application functionality.
-Architected and implemented Retrieval-Augmented Generation (RAG) systems to improve LLM output accuracy and real-time relevance, utilizing vector databases (ChromaDB, Pinecone).
-Proficient in Large Language Model (LLM) application development using LangChain, including advanced prompt engineering for OpenAI GPT-4 API.
-Founded and lead 'Learn AI LA', an educational meetup in Los Angeles, fostering AI literacy and community knowledge sharing.
+Developed AI service platforms using React and Python, building an AI content detection system for teachers to identify AI-authored writing and automated content solutions.
+Enhanced SEO-optimized advertising platforms, enhancing user engagement and ad revenue through strategic SEO and database-driven chatbots.
+Developed a chatbot widget with database-driven pre-prompting to augment LLM queries for website integration.
+Built secure AI applications with robust authentication, scalable databases (PostgreSQL, SQLite), and OpenAI API integration for content verification and automated systems.
+Launched an automated AI newsletter featuring scraped news articles, AI-generated images, and website publishing.
+Architected RAG systems utilizing vector databases (ChromaDB, Pinecone) to improve LLM accuracy and real-time relevance via database-augmented queries.
+Founded and led 'Learn AI LA', fostering AI literacy and community knowledge sharing.
 
-Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, Python, PostgreSQL, SQLite
+Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, next-auth, Python, Postgres, SQLite
 
 
 Senior Developer	Oct 2023 to Jun 2024	
 Cognizant (DirecTV), El Segundo, CA	
 
-Next.js Front-End Leadership for Enterprise Solutions: Led front-end development initiatives using Next.js within an Agile environment to build and scale complex software solutions for DirecTV, serving millions of users.
-Global Collaboration for Performance Optimization: Collaborated effectively with distributed offshore development teams to identify and resolve critical performance bottlenecks and scalability limitations within the development environment.
-SEO & Performance Enhancement via Server-Side Rendering: Optimized server-side rendering (SSR) strategies for client support pages, significantly improving SEO rankings and page load performance.
- Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
+Led front-end Next.js development for enterprise solutions within Agile, serving millions of DirecTV users.
+Collaborated with global offshore teams to resolve critical performance and scalability bottlenecks.
+Led team developing strategies for dynamic API retrieval with authentication, rate limiting, data transformation for data security and access.
+Optimized server-side rendering (SSR) for client support pages, significantly improving SEO and page load performance.
+Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
 
 
 Front End Developer	Oct 2017 to May 2023
-Internet Brands - WebMD, El Segundo, CA	 
-HIPAA-Compliant Telemedicine Application Development: Developed secure, HIPAA-compliant telemedicine applications utilizing microservices architecture to facilitate seamless physician-patient communication and create intuitive medical dashboards, enhancing patient care and operational efficiency.
-Greenfield Front-End Re-architecture for Major Application: Primary front end developer for the complete front-end re-architecture of a major medical application as a greenfield project over 18 months, resulting in a more feature rich, maintainable, scalable, and performant platform.
-Legacy Code Modernization with React & Functional Components: Developer on the modernization of legacy front-end codebases by strategically transitioning from class-based to functional React components, improving code maintainability and developer velocity.
-Unified Front-End Platform Implementation across 7 Medical Brands: Architected implemented a unified front-end platform using a hybrid version of Next.js and Tailwind CSS, standardizing the user experience across approximately 7 diverse medical companies within Internet Brands, streamlining development and design processes.
-Mentorship & Code Quality Advocacy: Served as a key mentor to junior developers and proactively participated in code reviews, raising overall code quality and fostering a collaborative team environment.
-Database Automation and SQL Expertise: Demonstrated strong database skills with Postgres, including writing complex SQL scripts for automated email templates and implementing SQL automation processes, improving operational efficiency and data accuracy.
+Internet Brands - WebMD, El Segundo, CA	
+Developed HIPAA-compliant telemedicine applications using microservices for secure physician-patient communication and intuitive medical dashboards.
+Spearheaded front-end re-architecture of a major medical application (greenfield project), enhancing features, maintainability, scalability, and performance.
+Modernized legacy front-end codebases by transitioning to functional React components, improving code maintainability and developer velocity.
+Architected and implemented a unified front-end platform (Next.js hybrid, Tailwind CSS) across 7 medical brands, standardizing UX and streamlining development.
+Mentored junior developers and championed code reviews, elevating code quality and team collaboration.
+Utilized Postgres and SQL expertise to automate email templates and implement SQL automation processes, improving operational efficiency.
 
 Technologies Used: React, Next.js, Redux, Tailwind CSS, SQL, JavaScript, CoffeeScript, Postgres, REST, GraphQL, Webpack, GitLab, Jest, Docker.
 
@@ -55,11 +61,11 @@ Technologies Used: React, Next.js, Redux, Tailwind CSS, SQL, JavaScript, CoffeeS
 Developer	Aug 2015 to Oct 2017
 IRS Express LLC, Beverly Hills, CA
 
-Full-Stack Development of Tax Strategy & Legal Services Application: Led the full-stack development of a legal services application for IRS debt reduction, encompassing both front-end and back-end functionalities to provide taxpayers with strategic guidance.
-Algorithmic Tax Strategy Calculation Engine: Engineered a Python-based algorithmic engine using Django to dynamically calculate personalized tax negotiation strategies based on taxpayer demographics and allowable expenses, automating complex financial analysis.
-Automated IRS Form Generation in PDF Format: Implemented automated generation of completed IRS PDF forms for accurate submission, streamlining the tax filing process for users and ensuring compliance.
-Developed marketing websites to promote IRS Express and other legal services using Wordpress and Angular JS. Performed UI design and produced graphic assists. 
- Technologies used:​ Python (Django, Flask), Postgres, AWS, (EC2, RDS, S3), PHP, Angular, JavaScript, jQuery, Gulp, Wordpress, Premiere Pro, Photoshop 
+Led full-stack development of a legal services application for IRS debt reduction, encompassing front-end and back-end functionalities.
+Engineered a Python/Django algorithmic engine for dynamic tax strategy calculation based on taxpayer demographics and expenses.
+Implemented automated IRS PDF form generation, streamlining the tax filing process and ensuring compliance.
+Developed marketing websites for IRS Express and legal services using WordPress and AngularJS, including UI design and graphic assets.
+Technologies used:​ Python (Django, Flask), Postgres, AWS, (EC2, RDS, S3), PHP, Angular, JavaScript, jQuery, Gulp, Wordpress, Premiere Pro, Photoshop 
 
 Education
- Santa Monica College / AA Business Administration
+Santa Monica College / AA Business Administration
