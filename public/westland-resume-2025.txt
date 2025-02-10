@@ -1,7 +1,7 @@
 Donald Westland
 Front End, Full Stack and AI Developer
 Marina del Rey, CA
-don@westland.net    310-721-7442	
+don@westland.net    310-721-7442
 
 Project Site: https://www.DonWestland.com
 LinkedIn: https://www.linkedin.com/in/donwestland/
@@ -20,7 +20,7 @@ Team: Team Lead, Jira, Gitflow, Scrum, Agile, code reviews
 
 AI Skills: Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced Prompt Engineering, Vector Databases (Pinecone, ChromaDB), LangChain, Python, Jupyter Notebook, Colab
 
-Experience 
+Experience
 
 AI & Full-Stack Engineering & Consulting	Jun 2024 to Present
 Marina del Rey, CA
@@ -33,21 +33,23 @@ Launched an automated AI newsletter featuring scraped news articles, AI-generate
 Architected RAG systems utilizing vector databases (ChromaDB, Pinecone) to improve LLM accuracy and real-time relevance via database-augmented queries.
 Founded and led 'Learn AI LA', fostering AI literacy and community knowledge sharing.
 
-Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, next-auth, Python, Postgres, SQLite
+Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, next-auth, Python, Postgres, SQLite, Cloudflare
 
 
 Senior Developer	Oct 2023 to Jun 2024	
-Cognizant (DirecTV), El Segundo, CA	
+Cognizant (DirecTV), El Segundo, CA
 
 Led front-end Next.js development for enterprise solutions within Agile, serving millions of DirecTV users.
 Collaborated with global offshore teams to resolve critical performance and scalability bottlenecks.
 Led team developing strategies for dynamic API retrieval with authentication, rate limiting, data transformation for data security and access.
 Optimized server-side rendering (SSR) for client support pages, significantly improving SEO and page load performance.
+
 Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
 
 
 Front End Developer	Oct 2017 to May 2023
-Internet Brands - WebMD, El Segundo, CA	
+Internet Brands - WebMD, El Segundo, CA
+
 Developed HIPAA-compliant telemedicine applications using microservices for secure physician-patient communication and intuitive medical dashboards.
 Spearheaded front-end re-architecture of a major medical application (greenfield project), enhancing features, maintainability, scalability, and performance.
 Modernized legacy front-end codebases by transitioning to functional React components, improving code maintainability and developer velocity.
@@ -65,7 +67,9 @@ Led full-stack development of a legal services application for IRS debt reductio
 Engineered a Python/Django algorithmic engine for dynamic tax strategy calculation based on taxpayer demographics and expenses.
 Implemented automated IRS PDF form generation, streamlining the tax filing process and ensuring compliance.
 Developed marketing websites for IRS Express and legal services using WordPress and AngularJS, including UI design and graphic assets.
+
 Technologies used:​ Python (Django, Flask), Postgres, AWS, (EC2, RDS, S3), PHP, Angular, JavaScript, jQuery, Gulp, Wordpress, Premiere Pro, Photoshop 
 
 Education
+
 Santa Monica College / AA Business Administration
