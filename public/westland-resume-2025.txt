@@ -25,13 +25,14 @@ Experience
 AI & Full-Stack Engineering & Consulting	Jun 2024 to Present
 Marina del Rey, CA
 
-Developed AI service platforms using React and Python, building an AI content detection system for teachers to identify AI-authored writing and automated content solutions.
-Enhanced SEO-optimized advertising platforms, enhancing user engagement and ad revenue through strategic SEO and database-driven chatbots.
-Developed a chatbot widget with database-driven pre-prompting to augment LLM queries for website integration.
-Built secure AI applications with robust authentication, scalable databases (PostgreSQL, SQLite), and OpenAI API integration for content verification and automated systems.
-Launched an automated AI newsletter featuring scraped news articles, AI-generated images, and website publishing.
-Architected RAG systems utilizing vector databases (ChromaDB, Pinecone) to improve LLM accuracy and real-time relevance via database-augmented queries.
-Founded and led 'Learn AI LA', fostering AI literacy and community knowledge sharing.
+Explored and developed AI startup concepts, focusing on innovative applications of LLM technologies and full-stack implementation.
+Modernized myBeachCams.com with database-driven architecture and automated backend, reducing manual operations from hours to minutes. Increased website traffic by 40% using modern SEO techniques.
+Prototyped AI content detection systems for educational use cases, incorporating LLM-based analysis to detect various types of AI generated content.
+Engineered a chatbot system with SQL-based knowledge augmentation, implementing strategic pre-prompting to deliver personalized, accurate responses based on client data.
+Created RAG architectures using vector databases (ChromaDB, Pinecone) to improve context-aware AI responses. Published online LangChain application using Python and FastAPI.
+Built proof-of-concept AI newsletter system combining automated content aggregation, image generation, and publishing workflows.
+Founded 'Learn AI LA' community initiative to facilitate knowledge sharing and AI technology adoption.
+Worked with partners on startup ventures, applying AI-driven automation and optimization strategies. Self-funded projects for several months, staying at the forefront of AI innovation. Now seeking a role to apply my new advanced AI and full-stack skills.
 
 Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, next-auth, Python, Postgres, SQLite, Cloudflare
 
@@ -39,12 +40,13 @@ Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB,
 Senior Developer	Oct 2023 to Jun 2024	
 Cognizant (DirecTV), El Segundo, CA
 
-Led front-end Next.js development for enterprise solutions within Agile, serving millions of DirecTV users.
-Collaborated with global offshore teams to resolve critical performance and scalability bottlenecks.
-Led team developing strategies for dynamic API retrieval with authentication, rate limiting, data transformation for data security and access.
-Optimized server-side rendering (SSR) for client support pages, significantly improving SEO and page load performance.
+Architected and led development of enterprise-scale Next.js applications serving millions of DirecTV users, implementing advanced SSR optimization techniques that reduced page load times by 30%.
+Designed and implemented a distributed API gateway system to route traffic between legacy services and modern microservices, enabling seamless migration of customer support infrastructure.
+Engineered a comprehensive API middleware layer incorporating rate limiting and data transformation pipelines to enforce security protocols across the enterprise platform.
+Spearheaded adoption of TypeScript and established code quality standards, resulting in 60% reduction in production bugs and improved developer velocity.
+Led cross-functional teams across multiple time zones to resolve critical performance bottlenecks, implementing caching strategies and performance monitoring that improved system reliability.
 
-Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
+Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, TypeScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
 
 
 Front End Developer	Oct 2017 to May 2023
@@ -57,7 +59,7 @@ Architected and implemented a unified front-end platform (Next.js hybrid, Tailwi
 Mentored junior developers and championed code reviews, elevating code quality and team collaboration.
 Utilized Postgres and SQL expertise to automate email templates and implement SQL automation processes, improving operational efficiency.
 
-Technologies Used: React, Next.js, Redux, Tailwind CSS, SQL, JavaScript, CoffeeScript, Postgres, REST, GraphQL, Webpack, GitLab, Jest, Docker.
+Technologies Used: React, Node (Express & Fastify)  Next.js, Redux, Tailwind CSS, SQL, JavaScript, SASS, CoffeeScript, Postgres, REST, GraphQL, Webpack, GitLab, Jest, Docker
 
 
 Developer	Aug 2015 to Oct 2017
