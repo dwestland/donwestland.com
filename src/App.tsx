@@ -126,7 +126,7 @@ Y88888888P     ee        .P   “Clean code always looks like it was
               <br />
               Developer
             </h2>
-            <ul>
+            <ul className="link-list">
               <motion.li
                 variants={liVariants}
                 whileHover={"hover"}
@@ -167,25 +167,111 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       <div className="row-spacer">&nbsp;</div>
       <h3>Skills</h3>
       <p>
-        <strong>Front End: </strong>Next.js 15 with Server Actions & App Router,
-        TypeScript, React Hooks & Classes, React Native, JavaScript, Redux,
-        Redux-Toolkit, Saga, React Query, RegEx, HTML, SCSS DevOps: Docker, AWS,
-        EC2, RDS, S3, CloudFront, Linux security & administration
+        <strong>Front End: </strong>Next.js 15 (Server Actions & App Router),
+        TypeScript, React (Hooks & Classes), React Native, JavaScript, Redux
+        (Toolkit, Saga), React Query, RegEx, HTML, SCSS
+        <br />
+        <strong>DevOps: </strong>Docker, AWS, EC2, RDS, S3, CloudFront,{" "}
+        Cloudflare, Linux security & administration
         <br />
         <strong>Backend: </strong>Node, Express, SSR, Python (Django, Flask),
         Nginx, Authentication, Database Administration (Postgres, MySQL, SQL,
-        SQLite, MongoDB) ORMs (Prisma, Pg, Sequelize, Mongoose), Cloudflare,
-        CloudFront, PM2, bash scripting, Jest
+        SQLite, MongoDB) ORMs (Prisma, Pg, Sequelize, Mongoose), PM2, bash
+        scripting, Jest
         <br />
         <strong>Team: </strong>Team Lead, Jira, Gitflow, Scrum, Agile, code
         reviews
       </p>
       <p>
         <strong>AI Skills: </strong>Retrieval-Augmented Generation (RAG) with
-        Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced
-        Prompt Engineering, Vector Database (Pinecone, ChromaDB), LangChain,
-        Python, Jupyter Notebook, Colab
+        Large Language Model (LLM), OpenAI API, Advanced Prompt Engineering,
+        Vector Database (Pinecone, ChromaDB), LangChain, Python, Jupyter
+        Notebook, Colab, Cursor, GitHub Copilot
       </p>
+      <div className="row-spacer">&nbsp;</div>
+
+      {/* Resume Bueno */}
+      <div className="row">
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants}>
+            <img
+              src="/images/resume-bueno-website.jpg"
+              alt="Resume Bueno Website"
+            />
+          </motion.div>
+        </motion.aside>
+        <motion.section
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={sectionVariants}>
+            <h2>Resume Bueno</h2>
+            <h3>AI optimizes your resume to match job requirements</h3>
+
+            <ul>
+              <li>
+                <strong>B2C SaaS App</strong> - Takes a job description and your
+                resume and creates a matching resume, job evaluation and cover
+                letter
+              </li>
+
+              <li>
+                <strong>Tech Stack</strong> - Next.js 15 using server actions,
+                React, TypeScript, PostgreSQL, Prisma 6, next-auth 5, OpenAI API
+                and Stripe
+              </li>
+
+              <li>
+                <strong>Cloud Infrastructure</strong> - Hosted on Vercel,
+                database hosted on Neon and images on AWS S3 and Cloudflare
+              </li>
+            </ul>
+
+            <p>
+              Resume Bueno automates the process of matching your resume with
+              the job offering. Increasing ATS (Applicant Tracking System)
+              success rates and recruiter appeal. Leveraging advanced AI and
+              modern infrastructure to deliver precise, job-specific resumes
+              instantly.
+            </p>
+            <ul className="link-list">
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Website:{" "}
+                <a
+                  href="https://www.resumebueno.com"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Resume Bueno
+                </a>
+              </motion.li>
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Code:{" "}
+                <a
+                  href="https://github.com/dwestland/resume-bueno"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://github.com/dwestland/resume-bueno
+                </a>
+              </motion.li>
+            </ul>
+          </motion.div>
+        </motion.section>
+      </div>
       <div className="row-spacer">&nbsp;</div>
 
       {/* Demand Force */}
@@ -208,12 +294,12 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           <motion.div variants={sectionVariants}>
             <h2>Telemedicine</h2>
             <h3>
-              Develop HIPAA medical applications for the healthcare industry
+              Developed HIPAA medical applications for the healthcare industry
             </h3>
             <p>
-              Create applications for doctor to patient communications. This is
-              the Campaign Studio, it can design and build targeted email
-              campaigns. Also provides fully-integrated automation tools like
+              Created applications for doctor-patient communications. Campaign
+              Studio enables targeted email campaigns with integrated automation
+              tools. Also provides fully-integrated automation tools like
               appointment reminders and two-way texting. This video shows some
               of the development work done on the app.
             </p>
@@ -228,6 +314,89 @@ Y88888888P     ee        .P   “Clean code always looks like it was
                 title="Embedded youtube"
               />
             </div>
+          </motion.div>
+        </motion.section>
+      </div>
+      <div className="row-spacer">&nbsp;</div>
+
+      {/* MyBeachCams.com */}
+      <div className="row">
+        <motion.aside
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={asideVariants}>
+            <img
+              src="/images/my-beach-cams-website.jpg"
+              alt="MyBeachCams.com Website"
+            />
+          </motion.div>
+        </motion.aside>
+        <motion.section
+          initial="offscreen"
+          whileInView="onscreen"
+          viewport={{ once: true, amount: 0.6 }}
+        >
+          <motion.div variants={sectionVariants}>
+            <h2>MyBeachCams.com</h2>
+            <h3>Live Beach Webcams with High-Impact Advertising</h3>
+            <ul>
+              <li>
+                <strong>Publisher Advertising Platform</strong> - Optimized for
+                revenue generation with targeted ad placements
+              </li>
+              <li>
+                <strong>Tech Stack</strong> - Next.js, React, PostgreSQL,
+                TypeScript, and delivered by Cloudflare CDN
+              </li>
+              <li>
+                <strong>SEO-Optimized</strong> - Uses SSR (Server-Side
+                Rendering) to ensure search engines efficiently index live
+                webcam content
+              </li>
+            </ul>
+
+            <p>
+              Redesigned from a static site to a database-driven platform with
+              an advanced admin dashboard, tackling the high-maintenance
+              challenges of ever-changing webcam hosting. By automating image
+              uploads, compression, and webcam geolocation, our database-driven
+              system cuts manual update time by 80%. Utilizing SSR and modern
+              techniques led to a 40% traffic increase and better user
+              engagement.
+            </p>
+
+            <ul className="link-list">
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Website:{" "}
+                <a
+                  href="https://www.mybeachcams.com/hawaii/kauai"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  MyBeachCams.com
+                </a>
+              </motion.li>
+              <motion.li
+                variants={liVariants}
+                whileHover={"hover"}
+                whileTap={"tap"}
+              >
+                Code:{" "}
+                <a
+                  href="https://github.com/dwestland/mbc"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  https://github.com/dwestland/mbc
+                </a>
+              </motion.li>
+            </ul>
           </motion.div>
         </motion.section>
       </div>
@@ -253,11 +422,12 @@ Y88888888P     ee        .P   “Clean code always looks like it was
             <h2>AI Inspire Me.com</h2>
             <h3>An app to give you inspirational messages</h3>
             <p>
-              A fun app using OpenAI's GPT-3.5 Turbo API. The app gives you
-              inspirational messages about the things you do through out your
-              day.
+              AI Inspire Me is a fun, interactive app originally built with one
+              of OpenAI's early APIs, designed to provide uplifting and
+              personalized inspiration. The app gives you inspirational messages
+              about the things you do throughout your day.
             </p>
-            <ul>
+            <ul className="link-list">
               <motion.li
                 variants={liVariants}
                 whileHover={"hover"}
@@ -301,11 +471,11 @@ Y88888888P     ee        .P   “Clean code always looks like it was
             <h2>Beach Cam</h2>
             <h3>Streaming Live from Venice, California</h3>
             <p>
-              For over 20 years, Beach Cam has been streaming live from Venice
-              Beach. One of the first webcams on the Internet. Beach Cam has
-              over a million visitors a year!
+              Streaming live from Venice Beach for over 20 years, Beach Cam was
+              one of the first webcams on the internet. Beach Cam has over a
+              million visitors a year!
             </p>
-            <ul>
+            <ul className="link-list">
               <motion.li
                 variants={liVariants}
                 whileHover={"hover"}
@@ -359,15 +529,15 @@ Y88888888P     ee        .P   “Clean code always looks like it was
         >
           <motion.div variants={sectionVariants}>
             <h2>CSS Menu</h2>
-            <h3>Responsive, SEO friendly menu with no JavaScript</h3>
+            <h3>Responsive, SEO-friendly menu with no JavaScript</h3>
             <p>
               This is a CSS only, dropdown horizontal nav bar that uses a simple
-              HTML nested unordered list. It supports nested lists, three deep.
-              It also has a responsive mobile style bottom nav with a hamburger
-              menu button. Works without interfering with your JavaScript or
-              framework.
+              HTML nested unordered list. Supports up to three levels of nested
+              lists. It also has a responsive mobile style bottom nav with a
+              hamburger menu button. Works without interfering with your
+              JavaScript or framework.
             </p>
-            <ul>
+            <ul className="link-list">
               <motion.li
                 variants={liVariants}
                 whileHover={"hover"}
@@ -410,7 +580,7 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           <motion.div variants={sectionVariants}>
             <h2>Video Production</h2>
             <h3>Cinematographer, editor, color, sound &amp; motion graphics</h3>
-            <ul>
+            <ul className="link-list">
               <motion.li
                 variants={liVariants}
                 whileHover={"hover"}
@@ -427,8 +597,8 @@ Y88888888P     ee        .P   “Clean code always looks like it was
               </motion.li>
             </ul>
             <p>
-              Passion for video production. Produce documentaries and travel
-              videos. Over a million views on YouTube!
+              Passionate about video production, specializing in documentaries
+              and travel content. Over a million views on YouTube!
             </p>
           </motion.div>
         </motion.section>
@@ -455,9 +625,8 @@ Y88888888P     ee        .P   “Clean code always looks like it was
             <h2>U.S.M.C.</h2>
             <h3>United States Marine Corps Reserve</h3>
             <p>
-              Helicopter Mechanic and Crew Chief
-              <br />
-              E-4, Honorable Discharge
+              Helicopter Mechanic and Crew Chief on a Boeing CH-46 Sea Knight.
+              Rank: E-4, Honorable Discharge.
             </p>
           </motion.div>
         </motion.section>

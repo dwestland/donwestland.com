@@ -1,7 +1,7 @@
 Donald Westland
 Front End, Full Stack and AI Developer
 Marina del Rey, CA
-don@westland.net    310-721-7442
+don@westland.net310-721-7442
 
 Project Site: https://www.DonWestland.com
 LinkedIn: https://www.linkedin.com/in/donwestland/
@@ -13,26 +13,27 @@ Results-oriented Full-stack and AI Developer proficient in modern technologies i
 
 Skills
 
-Front End: Next.js 15 (Server Actions & App Router), TypeScript, React (Functional Hooks & Classes), React Native, JavaScript, Redux (Redux-Toolkit, Saga), React Query, Jest, RegEx, HTML, SCSS
+Front End: Next.js 15 (Server Actions & App Router), TypeScript, React (Functional Hooks & Classes), React Native, Microservices, JavaScript, Redux (Redux-Toolkit, Saga), React Query, Jest, RegEx, HTML, SCSS
 Backend: Node, Express, SSR, Python (Django, Flask), Nginx, Authentication, Database Administration (Postgres, MySQL, SQLite, MongoDB), SQL Scripting, ORMs (Prisma, Pg, Sequelize, Mongoose), PM2, bash scripting
 DevOps: Docker, AWS, EC2, RDS, S3, CloudFront, Cloudflare, Linux security & administration
 Team: Team Lead, Jira, Gitflow, Scrum, Agile, code reviews
 
-AI Skills: Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced Prompt Engineering, Vector Databases (Pinecone, ChromaDB), LangChain, Python, Jupyter Notebook, Colab
+AI Skills: Retrieval-Augmented Generation (RAG) with Large Language Model (LLM). Cursor, GitHub Copilot, OpenAI API, Advanced Prompt Engineering, Vector Databases (Pinecone, ChromaDB), LangChain, Python, Jupyter Notebook, Colab, Hugging Face
 
 Experience
 
-AI & Full-Stack Engineering & Consulting	Jun 2024 to Present
-Marina del Rey, CA
+Full-Stack & AI Engineering	Jun 2024 to Present
+Resume Bueno, Marina del Rey, CA
 
-Explored and developed AI startup concepts, focusing on innovative applications of LLM technologies and full-stack implementation.
-Modernized myBeachCams.com with database-driven architecture and automated backend, reducing manual operations from hours to minutes. Increased website traffic by 40% using modern SEO techniques.
-Prototyped AI content detection systems for educational use cases, incorporating LLM-based analysis to detect various types of AI generated content.
-Engineered a chatbot system with SQL-based knowledge augmentation, implementing strategic pre-prompting to deliver personalized, accurate responses based on client data.
-Created RAG architectures using vector databases (ChromaDB, Pinecone) to improve context-aware AI responses. Published online LangChain application using Python and FastAPI.
-Built proof-of-concept AI newsletter system combining automated content aggregation, image generation, and publishing workflows.
-Founded 'Learn AI LA' community initiative to facilitate knowledge sharing and AI technology adoption.
-Worked with partners on startup ventures, applying AI-driven automation and optimization strategies. Self-funded projects for several months, staying at the forefront of AI innovation. Now seeking a role to apply my new advanced AI and full-stack skills.
+Designed and built Resume Bueno, a startup offering an AI-powered resume optimization platform. The application features resume matching, job evaluation, and cover letter generation based on job descriptions.
+Architected a full-stack application using Next.js 15 with server actions, Prisma, PostgreSQL, and NextAuth 5 server sessions. Implemented SQL-driven AI resume matching, job evaluation, and cover letter generation with Stripe payment processing.
+Deployed scalable cloud infrastructures, including integrating AWS (S3, EC2, CloudFront), PostgreSQL, and Cloudflare CDN for performance optimization and cost efficiency.
+Created an AI content detection system for a startup application, incorporating GPT-2-based LLM analysis to detect various types of AI-generated content.
+Developed an application prototype using Python, Flask, and LangChain to implement a retrieval-augmented generation (RAG) architecture. Integrated a vector database with Pinecone and created embeddings from chunked audio clips, video content, and PDF documents.
+Modernized MyBeachCams.com with Next.js server-side rendering, a database-driven architecture, and an automated backend dashboard, reducing manual operations by 80% while increasing website traffic by 40% using modern SEO techniques.
+Developed a chatbot system with SQL-based knowledge augmentation, implementing pre-prompting to deliver personalized, accurate responses based on client data.
+Created automated content creation pipelines for an AI newsletter, combining AI-powered content aggregation, image generation, and publishing workflows.
+Founded Learn AI LA, a community initiative to facilitate knowledge sharing and AI technology adoption.
 
 Technologies used: LLMs, RAG, LangChain, OpenAI API, Vector Databases (ChromaDB, Pinecone), Advanced Prompt Engineering, React, Next.js, next-auth, Python, Postgres, SQLite, Cloudflare
 
@@ -46,7 +47,7 @@ Engineered a comprehensive API middleware layer incorporating rate limiting and 
 Spearheaded adoption of TypeScript and established code quality standards, resulting in 60% reduction in production bugs and improved developer velocity.
 Led cross-functional teams across multiple time zones to resolve critical performance bottlenecks, implementing caching strategies and performance monitoring that improved system reliability.
 
-Technologies used:​ React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, TypeScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
+Technologies used: React, TypeScript, Next.js, Redux-Toolkit, Material UI, JavaScript, TypeScript, AWS, Jenkins, CodeCloud, REST, Jest, SEO
 
 
 Front End Developer	Oct 2017 to May 2023
@@ -59,7 +60,7 @@ Architected and implemented a unified front-end platform (Next.js hybrid, Tailwi
 Mentored junior developers and championed code reviews, elevating code quality and team collaboration.
 Utilized Postgres and SQL expertise to automate email templates and implement SQL automation processes, improving operational efficiency.
 
-Technologies Used: React, Node (Express & Fastify)  Next.js, Redux, Tailwind CSS, SQL, JavaScript, SASS, CoffeeScript, Postgres, REST, GraphQL, Webpack, GitLab, Jest, Docker
+Technologies Used: React, Node (Express & Fastify)  Next.js, Redux, Tailwind CSS, SQL, JavaScript, Microservices, SASS, CoffeeScript, Postgres, REST, GraphQL, Webpack, GitLab, Jest, Linux, Docker
 
 
 Developer	Aug 2015 to Oct 2017
@@ -70,7 +71,7 @@ Engineered a Python/Django algorithmic engine for dynamic tax strategy calculati
 Implemented automated IRS PDF form generation, streamlining the tax filing process and ensuring compliance.
 Developed marketing websites for IRS Express and legal services using WordPress and AngularJS, including UI design and graphic assets.
 
-Technologies used:​ Python (Django, Flask), Postgres, AWS, (EC2, RDS, S3), PHP, Angular, JavaScript, jQuery, Gulp, Wordpress, Premiere Pro, Photoshop 
+Technologies used: Python (Django, Flask), Postgres, AWS, (EC2, RDS, S3), PHP, Angular, JavaScript, jQuery, Gulp, Linux, Wordpress, Premiere Pro, Photoshop 
 
 Education
 
