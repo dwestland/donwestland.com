@@ -449,7 +449,7 @@ Y88888888P     ee        .P   “Clean code always looks like it was
       <div className="row-spacer">&nbsp;</div>
 
       {/* Beach Cam */}
-      <div className="row">
+      {/* <div className="row">
         <motion.aside
           initial="offscreen"
           whileInView="onscreen"
@@ -509,7 +509,7 @@ Y88888888P     ee        .P   “Clean code always looks like it was
           </motion.div>
         </motion.section>
       </div>
-      <div className="row-spacer">&nbsp;</div>
+      <div className="row-spacer">&nbsp;</div> */}
 
       {/* CSS Menu */}
       <div className="row">
